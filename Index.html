@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YMCA පෙර පාසල, රඹුක්කන - සිඟිති බක්මහ උළෙල 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;700&family=Poppins:wght@600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Sinhala', sans-serif;
+            background: linear-gradient(135deg, #fde68a, #fca5a5, #fda4af);
+            margin: 0; /* Ensure no default margin */
+            overflow: hidden; /* Hide scrollbars caused by particles going off-screen */
+        }
+
+        /* Style for the particle container */
+        #tsparticles {
+            position: absolute; /* Position it absolutely */
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0; /* Send it to the background */
+        }
+
+        /* Ensure the main content card is above the particles */
+        .content-container {
+            position: relative; /* Needed for z-index to work */
+            z-index: 1; /* Keep content above particles */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem; /* Re-apply padding here */
+        }
+
+        .title-font { font-family: 'Pacifico', cursive; }
+        .sinhala-title { font-family: 'Noto Sans Sinhala', sans-serif; font-weight: 700; }
+        .content-font { font-family: 'Noto Sans Sinhala', sans-serif; }
+        .button-font { font-family: 'Poppins', sans-serif; font-weight: 600; }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up { animation: fadeInUp 1s ease-out forwards; }
+
+        .hover-lift:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7); /* Slightly less transparent to ensure readability over particles */
+            backdrop-filter: blur(12px) saturate(150%);
+            -webkit-backdrop-filter: blur(12px) saturate(150%);
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+            max-width: 500px; /* Limit card width */
+            width: 100%;
+            text-align: center;
+            padding: 1.5rem 2rem; /* Adjust padding */
+        }
+
+        .highlight-box {
+            background-color: rgba(255, 191, 0, 0.85);
+            color: #6b4f00;
+            border-radius: 50px;
+            padding: 10px 20px;
+            display: inline-block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            line-height: 1.6;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .text-gradient {
+            background: linear-gradient(45deg, #c92a2a, #a61e4d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #c92a2a;
+        }
+        .text-gradient-orange {
+            background: linear-gradient(45deg, #f76707, #e8590c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #f76707;
+        }
+
+        .icon-list li { margin-bottom: 10px; display: flex; align-items: center; }
+        .icon-list svg { margin-right: 10px; color: #e8590c; flex-shrink: 0; }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="tsparticles"></div>
+
+    <div class="content-container">
+        <div class="glass-card fade-in-up hover-lift">
+
+            <h1 class="text-4xl md:text-5xl title-font text-gradient mb-2">සොඳුරු බක්මහ සිරිය</h1>
+            <h2 class="text-3xl md:text-4xl sinhala-title text-gradient-orange mb-3">සිඟිති බක්මහ උළෙල 2025</h1>
+            <h3 class="text-xl md:text-2xl text-brown-800 font-semibold mb-5">YMCA පෙර පාසල, රඹුක්කන</h3>
+
+            <p class="text-lg content-font text-gray-800 mb-6">
+                YMCA පෙර පාසලේ (රඹුක්කන) අපේ සිඟිති දූ පුතුන් සමග එක්ව, සාම්ප්‍රදායික සිරිත් විරිත් ඉස්මතු කරමින්, අලුත් අවුරුදු සතුට සමරන්නට ඔබ සැමට ආදරයෙන් ඇරයුම්! 🎉🪁
+            </p>
+
+            <div class="highlight-box text-lg font-semibold mb-6">
+                <span class="sinhala-title">දිනය:</span> 2025 අප්‍රේල් 10 (බ්‍රහස්පතින්දා)<br>
+                <span class="sinhala-title">වේලාව:</span> පෙ.ව. 8.00 සිට <br>
+                <span class="sinhala-title">ස්ථානය:</span> පින්නවල සත්වෝද්‍යාන පරිශ්‍රය
+            </div>
+
+            <p class="text-md content-font font-semibold text-gray-700 mb-2">අපේ පොඩ්ඩන් වෙනුවෙන්ම:</p>
+            <ul class="icon-list text-left inline-block text-md content-font text-gray-700 mb-6">
+               <li><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg> සාම්ප්‍රදායික අවුරුදු ක්‍රීඩා 🤸‍♀️</li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg> රසවත් අවුරුදු කෑම මේසය 🍚</li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg> තවත් විනෝදාත්මක අංග රැසක් 🥳</li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg> සිඟිති දරුවන්ගේ සංස්කෘතික අංග 💃🕺</li>
+            </ul>
+
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4">
+                <a href="#" class="bg-red-600 hover:bg-red-700 text-white button-font py-2.5 px-7 rounded-full transition shadow-md hover-lift">
+                    පැමිණෙන්න!
+                </a>
+                <a href="tel:+94719777051" class="bg-orange-500 hover:bg-orange-600 text-white button-font py-2.5 px-7 rounded-full transition shadow-md hover-lift">
+                    විමසීම් (071 977 7051)
+                </a>
+            </div>
+
+            <p class="mt-8 text-sm content-font text-gray-600">මේ සතුටු හිතෙන ආරංචිය ඔබේ යහළුවන් සමග Facebook & WhatsApp හරහා බෙදාගන්න! 😊</p>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+
+    <script>
+        tsParticles.load("tsparticles", { // Use the ID of the container div
+            fpsLimit: 60, // Limit frames per second for performance
+            particles: {
+                number: {
+                    value: 50, // Number of particles
+                    density: {
+                        enable: true,
+                        value_area: 800 // Spread particles over this area
+                    }
+                },
+                color: {
+                    value: ["#ffffff", "#fff475", "#ffc0cb"] // Particle colors (white, light yellow, pink)
+                },
+                shape: {
+                    type: "star", // Particle shape (can be "circle", "star", "polygon", etc.)
+                    // Optional: Configure star shape
+                    // star: {
+                    //     nb_sides: 5 // Number of points on the star
+                    // }
+                },
+                opacity: {
+                    value: 0.6, // Particle opacity
+                    random: true, // Randomize opacity
+                    anim: {
+                        enable: true,
+                        speed: 0.5,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 3, // Particle size
+                    random: true, // Randomize size
+                    anim: {
+                        enable: false,
+                        speed: 4,
+                        size_min: 0.3,
+                        sync: false
+                    }
+                },
+                links: {
+                    enable: false, // Do not draw lines between particles
+                },
+                move: {
+                    enable: true,
+                    speed: 1.5, // Particle movement speed
+                    direction: "bottom", // Move particles downwards
+                    random: false,
+                    straight: true, // Particles move straight
+                    out_mode: "out", // Remove particles when they go out of bounds
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                    }
+                }
+            },
+            interactivity: { // Disable interactivity
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: false,
+                    },
+                    onclick: {
+                        enable: false,
+                    },
+                    resize: true
+                },
+            },
+            detectRetina: true // Better rendering on high-density screens
+        });
+    </script>
+
+</body>
+</html>
